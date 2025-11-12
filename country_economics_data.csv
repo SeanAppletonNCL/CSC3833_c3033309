@@ -1,0 +1,174 @@
+Name,ID,Abbreviation,Currency,Capital,Languages,Latitude,Longitude,Area,Population,Region,Subregion,Borders,GDP,GDP Growth,Interest Rate,Inflation Rate,Jobless Rate,Gov. Budget,Debt/GDP,Current Account
+Afghanistan,4,AF,Afghan afghani,Kabul,Dari,33,65,652230,35.7,Asia,Southern Asia,"['IRN', 'PAK', 'TKM', 'UZB', 'TJK', 'CHN']",17,,14.94,0.2,13.3,-4.8,8.3,-17.3
+Albania,8,AL,Albanian lek,Tirana,Albanian,41,20,28748,2.36,Europe,Southeast Europe,"['MNE', 'GRC', 'MKD', 'UNK']",27,0.7,2.5,2.5,8.7,-0.7,54.7,-2.4
+Algeria,12,DZ,Algerian dinar,Algiers,Arabic,28,3,2381741,46.81,Africa,Northern Africa,"['TUN', 'LBY', 'NER', 'ESH', 'MRT', 'MLI', 'MAR']",264,18.6,3,-0.22,11.43,-9.3,46.2,1.3
+Angola,24,AO,Angolan kwanza,Luanda,Portuguese,-12.5,18.5,1246700,35.12,Africa,Middle Africa,"['COG', 'COD', 'ZMB', 'NAM']",80,2.3,19.5,19.48,29.4,-1.5,58.2,5.4
+Argentina,32,AR,Argentine peso,Buenos Aires,Guaran,-34,-64,2780400,47.07,Americas,South America,"['BOL', 'BRA', 'CHL', 'PRY', 'URY']",633,0.8,29,36.6,7.9,-4.37,83.2,0.6
+Armenia,51,AM,Armenian dram,Yerevan,Armenian,40,45,29743,2.99,Asia,Western Asia,"['AZE', 'GEO', 'IRN', 'TUR']",26,,6.75,3.4,13.9,-3.15,50.3,2.8
+Australia,36,AU,Australian dollar,Canberra,English,-27,133,7692024,27.4,Oceania,Australia and New Zealand,,1752,0.2,3.6,2.1,4.2,0.6,43.8,-2.1
+Austria,40,AT,Euro,Vienna,German,47.33333333,13.33333333,83871,9.2,Europe,Central Europe,"['CZE', 'DEU', 'HUN', 'ITA', 'LIE', 'SVK', 'SVN', 'CHE']",522,0.1,2.15,3.6,6.7,-4.7,81.8,2.4
+Azerbaijan,31,AZ,Azerbaijani manat,Baku,Azerbaijani,40.5,47.5,86600,10.18,Asia,Western Asia,"['ARM', 'GEO', 'IRN', 'RUS', 'TUR']",74,,7,5,5.3,-0.4,20.9,6.3
+Bahamas,44,BS,Bahamian dollar,Nassau,English,25.0343,-77.3963,13943,0.41,Americas,Caribbean,,16,,4,-0.4,9.4,-1.3,81.5,-7.9
+Bahrain,48,BH,Bahraini dinar,Manama,Arabic,26,50.55,765,1.59,Asia,Western Asia,,48,-7.57,5.25,-0.4,6.3,-5.6,134,5.3
+Bangladesh,50,BD,Bangladeshi taka,Dhaka,Bengali,24,90,147570,171.6,Asia,Southern Asia,"['MMR', 'IND']",450,5.82,10,8.55,4.7,-4.6,31.7,-1.4
+Belarus,112,BY,Belarusian ruble,Minsk,Belarusian,53,28,207600,9.11,Europe,Eastern Europe,"['LVA', 'LTU', 'POL', 'RUS', 'UKR']",76,,9.75,7.4,3,-0.3,24,-2.5
+Belgium,56,BE,Euro,Brussels,German,50.83333333,4,30528,11.9,Europe,Western Europe,"['FRA', 'DEU', 'LUX', 'NLD']",665,0.2,2.15,1.92,6.5,-4.5,104.7,-0.9
+Benin,204,BJ,West African CFA franc,Porto-Novo,French,9.5,2.25,112622,13.75,Africa,Western Africa,"['BFA', 'NER', 'NGA', 'TGO']",21,,5.25,1,1.4,-3.7,53,-6.4
+Bhutan,64,BT,Bhutanese ngultrum,Thimphu,Dzongkha,27.5,90.5,38394,0.78,Asia,Southern Asia,"['CHN', 'IND']",3,,6.38,3.65,3.6,-0.2,107.78,-21.7
+Bolivia,68,BO,Bolivian boliviano,Sucre,Aymara,-17,-65,1098581,12.41,Americas,South America,"['ARG', 'BRA', 'CHL', 'PRY', 'PER']",50,7.89,4.05,24.86,2.4,-7.8,95,-2.7
+Bosnia and Herzegovina,70,BA,Bosnia and Herzegovina convertible mark,Sarajevo,Bosnian,44,18,51209,3.41,Europe,Southeast Europe,"['HRV', 'MNE', 'SRB']",28,0.5,4.66,4.6,13.4,-1.2,16.9,-4
+Botswana,72,BW,Botswana pula,Gaborone,English,-22,24,582000,2.52,Africa,Southern Africa,"['NAM', 'ZAF', 'ZMB', 'ZWE']",19,-0.1,1.9,1.1,23.1,-9,24.9,-7.3
+Brazil,76,BR,Brazilian real,Brasilia,Portuguese,-10,-55,8515767,212.58,Americas,South America,"['ARG', 'BOL', 'COL', 'GUF', 'GUY', 'PRY', 'PER', 'SUR', 'URY', 'VEN']",2179,1.4,15,5.23,5.8,-8.5,76.5,-2.55
+Brunei,96,BN,Brunei dollar,Bandar Seri Begawan,Malay,4.5,114.6666667,5765,0.46,Asia,South-Eastern Asia,['MYS'],15,,5.5,-0.6,4.7,1.1,2.3,15.9
+Bulgaria,100,BG,Bulgarian lev,Sofia,Bulgarian,43,25,110879,6.44,Europe,Southeast Europe,"['GRC', 'MKD', 'ROU', 'SRB', 'TUR']",112,0.7,1.82,5.3,5.1,-3,24.1,-1
+Burkina Faso,854,BF,West African CFA franc,Ouagadougou,French,13,-2,272967,23.4,Africa,Western Africa,"['BEN', 'CIV', 'GHA', 'MLI', 'NER', 'TGO']",23,,5.25,1.1,5.2,-5.7,52.7,-5.4
+Burundi,108,BI,Burundian franc,Gitega,French,-3.5,30,27834,14.05,Africa,Eastern Africa,"['COD', 'RWA', 'TZA']",2,,12,41.6,0.9,-5,13.1,-8.5
+Cambodia,116,KH,Cambodian riel,Phnom Penh,Khmer,13,105,181035,17.64,Asia,South-Eastern Asia,"['LAO', 'THA', 'VNM']",46,,0.42,1.66,0.27,-3.44,26.6,1.3
+Cameroon,120,CM,Central African CFA franc,Yaounde,English,6,12,475442,29.1,Africa,Middle Africa,"['CAF', 'TCD', 'COG', 'GNQ', 'GAB', 'NGA']",51,2.7,4.5,3.3,3.5,-0.7,42.7,-3.2
+Canada,124,CA,Canadian dollar,Ottawa,English,60,-95,9984670,41.53,Americas,North America,['USA'],2241,0.5,2.75,1.7,6.9,-2.1,110.8,-1
+Cape Verde,132,CV,Cape Verdean escudo,Praia,Portuguese,16.5388,-23.0418,4033,0.59,Africa,Western Africa,,3,-3,2.5,2.7,11.9,-2.9,109.2,-5.8
+Cayman Islands,136,KY,Cayman Islands dollar,George Town,English,19.3133,-81.2546,264,0.09,Americas,Caribbean,,7,,,1.8,2.8,-1.1,7.6,-7.7
+Central African Republic,140,CF,Central African CFA franc,Bangui,French,7,21,622984,5.33,Africa,Middle Africa,"['CMR', 'TCD', 'COD', 'COG', 'SSD', 'SDN']",3,,4.5,4.1,6.3,-4.9,60.7,-8
+Chad,148,TD,Central African CFA franc,N'Djamena,Arabic,15,19,1284000,18.68,Africa,Middle Africa,"['CMR', 'CAF', 'LBY', 'NER', 'NGA', 'SDN']",21,,4.5,-4.7,0.9,-2,33.8,-9.7
+Chile,152,CL,Chilean peso,Santiago,Spanish,-30,-71,756102,18.48,Americas,South America,"['ARG', 'BOL', 'PER']",330,0.4,4.75,4.3,8.9,-2.8,41.7,-1.5
+China,156,CN,Chinese yuan,Beijing,Chinese,35,105,9706961,1408,Asia,Eastern Asia,"['AFG', 'BTN', 'MMR', 'HKG', 'IND', 'KAZ', 'NPL', 'PRK', 'KGZ', 'LAO', 'MAC', 'MNG', 'PAK', 'RUS', 'TJK', 'VNM']",18744,1.1,3,0,5.2,-6.5,88.3,2.2
+Colombia,170,CO,Colombian peso,Bogota,Spanish,4,-72,1141748,52.97,Americas,South America,"['BRA', 'ECU', 'PAN', 'PER', 'VEN']",419,0.5,9.25,4.9,8.6,-5.8,61.3,-1.8
+Comoros,174,KM,Comorian franc,Moroni,Arabic,-12.16666666,44.25,1862,0.87,Africa,Eastern Africa,,2,,3.08,4.4,3.9,-3.2,28.4,-3.5
+Costa Rica,188,CR,Costa Rican colon,San Jose,Spanish,10,-84,51100,5.16,Americas,Central America,"['NIC', 'PAN']",95,0.2,3.75,-0.61,7.5,-1.9,74.18,-1.4
+Croatia,191,HR,Euro,Zagreb,Croatian,45.16666666,15.5,56594,3.86,Europe,Southeast Europe,"['BIH', 'HUN', 'MNE', 'SRB', 'SVN']",93,0.3,2.15,4.1,4,-2.4,57.7,-1.2
+Cuba,192,CU,Cuban convertible peso,Havana,Spanish,21.5,-80,109884,9.75,Americas,Caribbean,,107,,2.25,14.37,1.5,-11.1,119,-0.5
+Cyprus,196,CY,Euro,Nicosia,Greek,35,33,9251,0.98,Europe,Southern Europe,,36,0.5,2.15,-0.9,3.8,4.3,65,-8.4
+Denmark,208,DK,Danish krone,Copenhagen,Danish,56,10,43094,5.96,Europe,Northern Europe,['DEU'],429,1.3,1.6,2.3,2.5,4.5,31.1,12.1
+Djibouti,262,DJ,Djiboutian franc,Djibouti,Arabic,11.5,43,23200,1.17,Africa,Eastern Africa,"['ERI', 'ETH', 'SOM']",4,,11.2,-0.6,25.9,-0.5,45,6.2
+Dominican Republic,214,DO,Dominican peso,Santo Domingo,Spanish,19,-70.66666666,48671,10.8,Americas,Caribbean,['HTI'],124,-0.5,5.75,3.4,4.9,-3.09,57.57,-3.4
+Ecuador,218,EC,United States dollar,Quito,Spanish,-2,-77.5,276841,17.97,Americas,South America,"['COL', 'PER']",125,3.46,8.5,0.72,4.5,-1.9,50.6,2.8
+Egypt,818,EG,Egyptian pound,Cairo,Arabic,27,30,1002450,107.2,Africa,Northern Africa,"['ISR', 'LBY', 'PSE', 'SDN']",389,9.8,24,13.9,6.1,-7.1,82.9,-5.3
+El Salvador,222,SV,United States dollar,San Salvador,Spanish,13.83333333,-88.91666666,21041,6.31,Americas,Central America,"['GTM', 'HND']",35,-0.58,5.38,-0.14,5.2,-3.3,61.13,-1.8
+Equatorial Guinea,226,GQ,Central African CFA franc,Malabo,French,2,10,28051,1.89,Africa,Middle Africa,"['CMR', 'GAB']",13,,4.5,4,7.8,-1.2,36.2,-2.4
+Eritrea,232,ER,Eritrean nakfa,Asmara,Arabic,15,39,117600,3.21,Africa,Eastern Africa,"['DJI', 'ETH', 'SDN']",2,,,9,5.6,-3.4,164,12.4
+Estonia,233,EE,Euro,Tallinn,Estonian,59,26,45227,1.38,Europe,Northern Europe,"['LVA', 'RUS']",43,-0.3,2.15,5.4,7.8,-1.5,23.6,-1.1
+Ethiopia,231,ET,Ethiopian birr,Addis Ababa,Amharic,8,38,1104300,132.06,Africa,Eastern Africa,"['DJI', 'ERI', 'KEN', 'SOM', 'SSD', 'SDN']",164,,15,13.7,18.9,-2,32,-3.4
+Fiji,242,FJ,Fijian dollar,Suva,English,-17.7134,178.065,18272,0.93,Oceania,Melanesia,,6,,0.25,-0.4,4.3,-3.4,78.3,-8.7
+Finland,246,FI,Euro,Helsinki,Finnish,64,26,338424,5.6,Europe,Northern Europe,"['NOR', 'SWE', 'RUS']",300,0,2.15,0.2,9.9,-4.4,82.1,0
+France,250,FR,Euro,Paris,French,46,2,551695,68.44,Europe,Western Europe,"['AND', 'BEL', 'DEU', 'ITA', 'LUX', 'MCO', 'ESP', 'CHE']",3162,0.3,2.15,1,7.5,-5.8,113,0.4
+Gabon,266,GA,Central African CFA franc,Libreville,French,-1,11.75,267668,2.54,Africa,Middle Africa,"['CMR', 'COG', 'GNQ']",21,,4.5,0.7,20.1,-3,73.4,5.1
+Gambia,270,GM,dalasi,Banjul,English,13.46666666,-16.56666666,10689,2.76,Africa,Western Africa,['SEN'],3,,17,7.16,6.5,-3.6,72,-3
+Georgia,268,GE,lari,Tbilisi,Georgian,42,43.5,69700,3.71,Asia,Western Asia,"['ARM', 'AZE', 'RUS', 'TUR']",34,,8,4.3,14.3,-2.1,36.1,-4.4
+Germany,276,DE,Euro,Berlin,German,51,9,357114,83.6,Europe,Western Europe,"['AUT', 'BEL', 'CZE', 'DNK', 'FRA', 'LUX', 'NLD', 'POL', 'CHE']",4660,-0.3,2.15,2,6.3,-2.8,62.5,5.7
+Ghana,288,GH,Ghanaian cedi,Accra,English,8,-2,238533,34.43,Africa,Western Africa,"['BFA', 'CIV', 'TGO']",83,1.4,25,12.1,3,-4.8,70.5,4.4
+Greece,300,GR,Euro,Athens,Greek,39,22,131990,10.41,Europe,Southern Europe,"['ALB', 'BGR', 'TUR', 'MKD']",257,0,2.15,3.1,7.9,1.3,153.6,-6.4
+Guatemala,320,GT,Guatemalan quetzal,Guatemala City,Spanish,15.5,-90.25,108889,17.84,Americas,Central America,"['BLZ', 'SLV', 'HND', 'MEX']",113,,4.5,1.17,1.7,-1.01,27.9,2.9
+Guinea,324,GN,Guinean franc,Conakry,French,11,-10,245857,13.99,Africa,Western Africa,"['CIV', 'GNB', 'LBR', 'MLI', 'SEN', 'SLE']",25,,10.25,2.2,5.2,-3,42.4,10.31
+Guyana,328,GY,Guyanese dollar,Georgetown,English,5,-59,214969,0.78,Americas,South America,"['BRA', 'SUR', 'VEN']",25,,5,4.2,10.2,-7.4,24.3,24.6
+Haiti,332,HT,Haitian gourde,Port-au-Prince,French,19,-72.41666666,27750,11.9,Americas,Caribbean,['DOM'],25,,17,29.6,15.1,7.1,14,-0.4
+Honduras,340,HN,Honduran lempira,Tegucigalpa,Spanish,15,-86.5,112492,9.89,Americas,Central America,"['GTM', 'SLV', 'NIC']",37,1.7,5.75,4.41,5.2,-1.78,39.8,-4.6
+Hong Kong,344,HK,Hong Kong dollar,City of Victoria,English,22.267,114.188,1104,7.53,Asia,Eastern Asia,['CHN'],407,0.4,4.75,1,3.7,-5,9.3,11.5
+Hungary,348,HU,Hungarian forint,Budapest,Hungarian,47,20,93028,9.58,Europe,Central Europe,"['AUT', 'HRV', 'ROU', 'SRB', 'SVK', 'SVN', 'UKR']",223,0.4,6.5,4.3,4.5,-4.9,73.5,2.2
+Iceland,352,IS,Icelandic krona,Reykjavik,Icelandic,65,-18,103000,0.39,Europe,Northern Europe,,33,2.7,7.5,4,2.8,-3.4,59.3,-2.7
+India,356,IN,Indian rupee,New Delhi,English,20,77,3287590,1398.6,Asia,Southern Asia,"['BGD', 'BTN', 'MMR', 'CHN', 'NPL', 'PAK']",3913,2,5.5,1.55,5.2,-4.8,81.59,-0.6
+Indonesia,360,ID,Indonesian rupiah,Jakarta,Indonesian,-5,120,1904569,281.6,Asia,South-Eastern Asia,"['TLS', 'MYS', 'PNG']",1396,4.04,5,2.37,4.76,-2.3,38.8,-0.63
+Iran,364,IR,Iranian rial,Tehran,Persian (Farsi),32,53,1648195,86,Asia,Southern Asia,"['AFG', 'ARM', 'AZE', 'IRQ', 'PAK', 'TUR', 'TKM']",437,,23,38.7,7.2,-5.5,36.8,2.9
+Iraq,368,IQ,Iraqi dinar,Baghdad,Arabic,33,44,438317,46.04,Asia,Western Asia,"['IRN', 'JOR', 'KWT', 'SAU', 'SYR', 'TUR']",280,,5.5,-0.6,15.5,-1.5,42.9,-1.9
+Ireland,372,IE,Euro,Dublin,English,53,-8,70273,5.44,Europe,Northern Europe,['GBR'],577,-1,2.15,1.7,4.9,4.3,40.9,17.2
+Israel,376,IL,Israeli new shekel,Jerusalem,Arabic,31.47,35.13,20770,9.97,Asia,Western Asia,"['EGY', 'JOR', 'LBN', 'PSE', 'SYR']",540,0.9,4.5,3.1,3,-6.8,69,3.2
+Italy,380,IT,Euro,Rome,Italian,42.83333333,12.83333333,301336,58.93,Europe,Southern Europe,"['AUT', 'FRA', 'SMR', 'SVN', 'CHE', 'VAT']",2373,-0.1,2.15,1.7,6.3,-3.4,135.3,1.1
+Ivory Coast,384,CI,West African CFA franc,Yamoussoukro,French,8,-5,322463,31.93,Africa,Western Africa,"['BFA', 'GHA', 'GIN', 'LBR', 'MLI']",87,,5.25,-0.8,2.3,-4,35.9,-4.8
+Jamaica,388,JM,Jamaican dollar,Kingston,English,18.25,-77.5,10991,2.82,Americas,Caribbean,,20,0.8,5.75,3.3,3.3,-1,67.9,1.3
+Japan,392,JP,Japanese yen,Tokyo,Japanese,36,138,377930,120.65,Asia,Eastern Asia,,4026,0.3,0.5,3.1,2.5,-2.3,236.7,4.7
+Jordan,400,JO,Jordanian dinar,Amman,Arabic,31,36,89342,11.73,Asia,Western Asia,"['IRQ', 'ISR', 'PSE', 'SAU', 'SYR']",53,,6.5,1.68,21.3,-5.3,90.2,-5
+Kazakhstan,398,KZ,Kazakhstani tenge,Astana,Kazakh,48.0196,66.9237,2724900,20.27,Asia,Central Asia,"['CHN', 'KGZ', 'RUS', 'TKM', 'UZB']",288,1.26,16.5,11.8,4.6,-2.3,23.7,1.3
+Kenya,404,KE,Kenyan shilling,Nairobi,English,1,38,580367,52.4,Africa,Eastern Africa,"['ETH', 'SOM', 'SSD', 'TZA', 'UGA']",125,0.8,9.5,4.1,5.4,-4.9,65.5,-3.6
+Kosovo,383,XK,Euro,Pristina,Albanian,42.666667,21.166667,10908,1.6,Europe,Southeast Europe,"['ALB', 'MKD', 'MNE', 'SRB']",11,,,4.3,10.8,0.2,16.9,-9
+Kuwait,414,KW,Kuwaiti dinar,Kuwait City,Arabic,29.5,45.75,17818,4.79,Asia,Western Asia,"['IRQ', 'SAU']",160,4.7,4,2.39,2.1,21.6,3,28.2
+Kyrgyzstan,417,KG,Kyrgyzstani som,Bishkek,Kyrgyz,41,75,199951,7.3,Asia,Central Asia,"['CHN', 'KAZ', 'TJK', 'UZB']",17,,9.25,8.8,1.6,2.4,25.9,-25.2
+Laos,418,LA,Lao kip,Vientiane,Lao,18,105,236800,7.65,Asia,South-Eastern Asia,"['MMR', 'KHM', 'CHN', 'THA', 'VNM']",17,,9.5,5.3,1.2,-2.3,68.71,3.22
+Latvia,428,LV,Euro,Riga,Latvian,57,25,64559,1.87,Europe,Northern Europe,"['BLR', 'EST', 'LTU', 'RUS']",44,-0.1,2.15,3.8,6.7,-1.8,46.8,-2.1
+Lebanon,422,LB,Lebanese pound,Beirut,Arabic,33.83333333,35.83333333,10452,5.8,Asia,Western Asia,"['ISR', 'SYR']",20,,20,14.3,11.5,-0.4,164.1,-31.5
+Lesotho,426,LS,Lesotho loti,Maseru,English,-29.5,28.5,30355,2.34,Africa,Southern Africa,['ZAF'],2,-0.47,7,4.3,16.1,8.4,60,-0.4
+Liberia,430,LR,Liberian dollar,Monrovia,English,6.5,-9.5,111369,5.61,Africa,Western Africa,"['GIN', 'CIV', 'SLE']",5,,17.25,9.9,2.9,-2.7,54.9,14.2
+Libya,434,LY,Libyan dinar,Tripoli,Arabic,25,17,1759540,7.38,Africa,Northern Africa,"['DZA', 'TCD', 'EGY', 'NER', 'SDN', 'TUN']",47,,3,1.7,18.6,8.5,83,18.5
+Liechtenstein,438,LI,Swiss franc,Vaduz,German,47.26666666,9.53333333,160,0.04,Europe,Western Europe,"['AUT', 'CHE']",8,,,0.2,1.6,,,
+Lithuania,440,LT,Euro,Vilnius,Lithuanian,56,24,65300,2.89,Europe,Northern Europe,"['BLR', 'LVA', 'POL', 'RUS']",85,0.2,2.15,3.8,8.6,-1.3,38.2,1.9
+Luxembourg,442,LU,Euro,Luxembourg,German,49.75,6.16666666,2586,0.67,Europe,Western Europe,"['BEL', 'FRA', 'DEU']",93,-1,2.15,2.3,5.9,1,26.3,6.9
+Macau,446,MO,Macanese pataca,,Portuguese,22.16666666,113.55,30,0.69,Asia,Eastern Asia,['CHN'],50,,4.75,0.12,1.9,,,31.4
+Madagascar,450,MG,Malagasy ariary,Antananarivo,French,-20,47,587041,31.96,Africa,Eastern Africa,,17,,12,8.1,3,-3.8,38.8,-4.5
+Malawi,454,MW,Malawian kwacha,Lilongwe,English,-13.5,34,118484,20.3,Africa,Eastern Africa,"['MOZ', 'TZA', 'ZMB']",11,,26,27.3,5,-8.2,87.7,-19.5
+Malaysia,458,MY,Malaysian ringgit,Kuala Lumpur,English,2.5,112.5,330803,34.1,Asia,South-Eastern Asia,"['BRN', 'IDN', 'THA']",422,2.1,2.75,1.2,3,-4.1,70.4,1.7
+Maldives,462,MV,Maldivian rufiyaa,Male,Maldivian,3.25,73,300,0.53,Asia,Southern Asia,,7,,7,3.8,4.6,-12.5,62.4,-20.4
+Mali,466,ML,West African CFA franc,Bamako,French,17,-4,1240192,24.48,Africa,Western Africa,"['DZA', 'BFA', 'GIN', 'CIV', 'MRT', 'NER', 'SEN']",27,,5.25,5.3,3.1,-2.8,,-7.44
+Malta,470,MT,Euro,Valletta,English,35.9375,14.3754,316,0.57,Europe,Southern Europe,,24,2.1,2.15,2.5,2.7,-3.7,47.4,5.7
+Mauritania,478,MR,Mauritanian ouguiya,Nouakchott,Arabic,20,-12,1030700,5.17,Africa,Western Africa,"['DZA', 'MLI', 'SEN', 'ESH']",11,,6.75,1.3,10.37,-1.1,40.3,-9
+Mauritius,480,MU,Mauritian rupee,Port Louis,English,-20.28333333,57.55,2040,1.26,Africa,Eastern Africa,,15,0.9,4.5,5.2,6,-5.7,82.1,-4.2
+Mexico,484,MX,Mexican peso,Mexico City,Spanish,23,-102,1964375,130.86,Americas,North America,"['BLZ', 'GTM', 'USA']",1853,0.6,7.75,3.51,2.7,-5.7,49.7,-0.8
+Moldova,498,MD,Moldovan leu,Chișinău,Romanian,47,29,33846,2.42,Europe,Eastern Europe,"['ROU', 'UKR']",18,1.1,6.25,7.9,4.4,3.9,34.6,-11.9
+Monaco,492,MC,Euro,Monaco,French,43.73333333,7.4,2.02,0.04,Europe,Western Europe,['FRA'],10,,,,,,,
+Mongolia,496,MN,Mongolian togrog,Ulan Bator,Mongolian,46,105,1564110,3.54,Asia,Eastern Asia,"['CHN', 'RUS']",24,6.1,12,8.1,4.5,0.2,33,-6.9
+Montenegro,499,ME,Euro,Podgorica,Montenegrin,42.5,19.3,13812,0.62,Europe,Southeast Europe,"['ALB', 'BIH', 'HRV', 'UNK', 'SRB']",8,,,4.5,9.13,0.2,60.3,-17.5
+Morocco,504,MA,Moroccan dirham,Rabat,Arabic,32,-5,446550,37.37,Africa,Northern Africa,"['DZA', 'ESH', 'ESP']",154,1.1,2.25,0.5,12.8,-3.9,70,-2.8
+Mozambique,508,MZ,Mozambican metical,Maputo,Portuguese,-18.25,35,801590,33.24,Africa,Eastern Africa,"['MWI', 'ZAF', 'SWZ', 'TZA', 'ZMB', 'ZWE']",22,2,10.25,3.96,25.04,-5,76.9,-11.1
+Myanmar,104,MM,Burmese kyat,Naypyidaw,Burmese,22,98,676578,54.5,Asia,South-Eastern Asia,"['BGD', 'CHN', 'IND', 'LAO', 'THA']",74,,9,28.58,3,-5.7,61.3,-5.5
+Namibia,516,NA,Namibian dollar,Windhoek,Afrikaans,-22,17,825615,2.69,Africa,Southern Africa,"['AGO', 'BWA', 'ZAF', 'ZMB']",13,-3.19,6.75,3.5,19.1,-3.9,65.3,-15.3
+Nepal,524,NP,Nepalese rupee,Kathmandu,Nepali,28,84,147181,29.65,Asia,Southern Asia,"['CHN', 'IND']",43,,6,2.72,10.7,-9,42.6,5.2
+Netherlands,528,NL,Euro,Amsterdam,Dutch,52.5,5.75,41850,18.04,Europe,Western Europe,"['BEL', 'DEU']",1228,0.1,2.15,2.9,3.8,-1.1,43.7,9.1
+New Caledonia,540,NC,CFP franc,Noumea,French,-21.5,165.5,18575,0.29,Oceania,Melanesia,,10,,2,0.8,11.2,,,
+New Zealand,554,NZ,New Zealand dollar,Wellington,English,-41,174,270467,5.36,Oceania,Australia and New Zealand,,260,0.8,3,2.7,5.2,-3.1,45.2,-5.7
+Nicaragua,558,NI,Nicaraguan cordoba,Managua,Spanish,13,-85,130373,6.87,Americas,Central America,"['CRI', 'HND']",20,,6.25,0.64,2.8,0.3,39.1,4.2
+Niger,562,NE,West African CFA franc,Niamey,French,16,8,1267000,27.03,Africa,Western Africa,"['DZA', 'BEN', 'BFA', 'TCD', 'LBY', 'MLI', 'NGA']",20,,5.25,-9.1,0.4,-4.3,47,-6.86
+Nigeria,566,NG,Nigerian naira,Abuja,English,10,8,923768,232.68,Africa,Western Africa,"['BEN', 'CMR', 'TCD', 'NER']",188,10,27.5,21.88,4.3,-6.1,52.9,-0.5
+Norway,578,NO,Norwegian krone,Oslo,Norwegian Nynorsk,62,10,323802,5.55,Europe,Northern Europe,"['FIN', 'SWE', 'RUS']",484,0.8,4.25,3.3,5.4,13.2,55.1,16.7
+Oman,512,OM,Omani rial,Muscat,Arabic,21,57,309500,5.27,Asia,Western Asia,"['SAU', 'ARE', 'YEM']",107,,5,0.8,3.2,2.2,36.5,5
+Pakistan,586,PK,Pakistani rupee,Islamabad,English,30,70,881912,251.27,Asia,Southern Asia,"['AFG', 'CHN', 'IND', 'IRN']",373,5.79,11,4.1,5.5,-6.8,80,-0.5
+Palestine,275,PS,Egyptian pound,Ramallah,Arabic,31.9,35.2,6220,5.61,Asia,Western Asia,"['ISR', 'EGY', 'JOR']",14,,,59.35,28.6,0.5,30.7,-21.1
+Panama,591,PA,Panamanian balboa,Panama City,Spanish,9,-80,75417,4.52,Americas,Central America,"['COL', 'CRI']",86,,2.14,-0.36,9.5,-7.35,56.6,-0.4
+Papua New Guinea,598,PG,Papua New Guinean kina,Port Moresby,English,-6,147,462840,10.58,Oceania,Melanesia,['IDN'],33,,4,5.28,2.7,-4.4,51.1,17.4
+Paraguay,600,PY,Paraguayan guarani,Asuncion,Guarani,-23,-58,406752,7.66,Americas,South America,"['ARG', 'BOL', 'BRA']",44,3.3,6,4.3,5.6,-2.1,45.2,-3.9
+Peru,604,PE,Peruvian sol,Lima,Aymara,-10,-76,1285216,34.04,Americas,South America,"['BOL', 'BRA', 'CHL', 'COL', 'ECU']",289,0.6,4.5,1.69,6.1,-3.2,32.8,2.2
+Philippines,608,PH,Philippine peso,Manila,English,13,122,342353,112.9,Asia,South-Eastern Asia,,462,1.5,5.25,0.9,3.7,-5.7,60.7,-3.8
+Poland,616,PL,Polish zloty,Warsaw,Polish,52,20,312679,36.5,Europe,Central Europe,"['BLR', 'CZE', 'DEU', 'LTU', 'RUS', 'SVK', 'UKR']",915,0.8,5,3.1,5.2,-6.6,55.3,0
+Portugal,620,PT,Euro,Lisbon,Portuguese,39.5,-8,92090,10.75,Europe,Southern Europe,['ESP'],309,0.6,2.15,2.6,6,0.7,94.9,2.2
+Puerto Rico,630,PR,United States dollar,San Juan,English,18.25,-66.5,8870,3.2,Americas,Caribbean,,126,,,1.2,5.7,,,
+Qatar,634,QA,Qatari riyal,Doha,Arabic,25.5,51.25,11586,3.12,Asia,Western Asia,['SAU'],218,0.3,5.1,-0.08,0.1,0.7,40.8,17.4
+Republic of the Congo,178,CG,Central African CFA franc,Brazzaville,French,-1,15,342000,6.33,Africa,Middle Africa,"['AGO', 'CMR', 'CAF', 'COD', 'GAB']",16,,4.5,5,19.8,2.7,95.4,2.4
+Romania,642,RO,Romanian leu,Bucharest,Romanian,46,25,238391,19.04,Europe,Southeast Europe,"['BGR', 'HUN', 'MDA', 'SRB', 'UKR']",383,1.2,6.5,7.84,5.8,-9.3,54.8,-7.5
+Russia,643,RU,Russian ruble,Moscow,Russian,60,100,17098242,146.2,Europe,Eastern Europe,"['AZE', 'BLR', 'CHN', 'EST', 'FIN', 'GEO', 'KAZ', 'PRK', 'LVA', 'LTU', 'MNG', 'NOR', 'POL', 'UKR']",2174,-0.8,18,8.8,2.2,-1.7,16.4,2.9
+Rwanda,646,RW,Rwandan franc,Kigali,English,-2,30,26338,13.8,Africa,Eastern Africa,"['BDI', 'COD', 'TZA', 'UGA']",14,-1,6.75,7.2,13.4,-6.3,67.2,-13.5
+Saudi Arabia,682,SA,Saudi riyal,Riyadh,Arabic,25,45,2149690,35.3,Asia,Western Asia,"['IRQ', 'JOR', 'KWT', 'OMN', 'QAT', 'ARE', 'YEM']",1238,2.1,5,2.1,2.8,-2.8,29.9,5.9
+Senegal,686,SN,West African CFA franc,Dakar,French,14,-14,196722,18.8,Africa,Western Africa,"['GMB', 'GIN', 'GNB', 'MLI', 'MRT']",32,-1.2,5.25,1.8,21.7,-11.7,56.1,-12.1
+Serbia,688,RS,Serbian dinar,Belgrade,Serbian,44,21,88361,6.57,Europe,Southeast Europe,"['BIH', 'BGR', 'HRV', 'HUN', 'UNK', 'MKD', 'MNE', 'ROU']",89,-0.6,5.75,4.9,9.1,-2.2,47.2,-6.3
+Seychelles,690,SC,Seychellois rupee,Victoria,Seychellois Creole,-4.58333333,55.66666666,452,0.1,Africa,Eastern Africa,,2,,1.75,0.64,3.2,0.1,61,-7.5
+Sierra Leone,694,SL,Leone,Freetown,English,8.5,-11.5,71740,8.64,Africa,Western Africa,"['GIN', 'LBR']",8,,21.75,7.1,3.1,-3.2,43,-3.8
+Singapore,702,SG,Singapore dollar,Singapore,English,1.36666666,103.8,710,6.04,Asia,South-Eastern Asia,,547,1.4,1.51,0.8,2.1,-1.6,173.1,17.5
+Slovakia,703,SK,Euro,Bratislava,Slovak,48.66666666,19.5,49037,5.42,Europe,Central Europe,"['AUT', 'CZE', 'HUN', 'POL', 'UKR']",142,0.1,2.15,4.4,5,-5.3,59.3,-2.8
+Slovenia,705,SI,Euro,Ljubljana,Slovene,46.11666666,14.81666666,20273,2.12,Europe,Central Europe,"['AUT', 'HRV', 'ITA', 'HUN']",72,0.7,2.15,2.8,4.3,-0.9,67,4.4
+Somalia,706,SO,Somali shilling,Mogadishu,Arabic,10,49,637657,19.01,Africa,Eastern Africa,"['DJI', 'ETH', 'KEN']",12,,,4.4,,,,
+South Africa,710,ZA,South African rand,Pretoria,Afrikaans,-29,24,1221037,63.02,Africa,Southern Africa,"['BWA', 'LSO', 'MOZ', 'NAM', 'SWZ', 'ZWE']",400,0.1,7,3.5,33.2,-5,76.9,-0.6
+South Korea,410,KR,South Korean won,Seoul,Korean,37,127.5,100210,51.75,Asia,Eastern Asia,['PRK'],1713,0.6,2.5,2.1,2.5,-3.9,46.8,5.3
+South Sudan,728,SS,South Sudanese pound,Juba,English,7,30,619745,11.94,Africa,Middle Africa,"['CAF', 'COD', 'ETH', 'KEN', 'SDN', 'UGA']",12,,12,112.6,12.5,,,
+Spain,724,ES,Euro,Madrid,Spanish,40,-4,505992,49.08,Europe,Southern Europe,"['AND', 'FRA', 'GIB', 'PRT', 'MAR']",1723,0.7,2.15,2.7,10.29,-3.2,101.8,3.1
+Sri Lanka,144,LK,Sri Lankan rupee,Sri Jayawardenepura Kotte,Sinhala,7,81,65610,23.1,Asia,Southern Asia,['IND'],99,1.4,7.75,-0.3,3.8,-6.8,96.1,1.2
+Sudan,729,SD,Sudanese pound,Khartoum,Arabic,15,30,1886068,50.45,Africa,Northern Africa,"['CAF', 'TCD', 'EGY', 'ERI', 'ETH', 'LBY', 'SSD']",50,,28.3,146.6,20.8,-3.2,272,-5.5
+Suriname,740,SR,Surinamese dollar,Paramaribo,Dutch,4,-56,163820,0.63,Americas,South America,"['BRA', 'GUF', 'GUY']",5,,10,8,7.3,-0.5,87.2,0.2
+Sweden,752,SE,Swedish krona,Stockholm,Swedish,62,15,450295,10.59,Europe,Northern Europe,"['FIN', 'NOR']",610,0.1,2,0.8,8,-1.5,33.5,6
+Switzerland,756,CH,Swiss franc,Bern,French,47,8,41284,9.05,Europe,Western Europe,"['AUT', 'FRA', 'ITA', 'LIE', 'DEU']",937,0.1,0,0.2,2.7,0.6,37.6,5.1
+Syria,760,SY,Syrian pound,Damascus,Arabic,35,38,185180,24.67,Asia,Western Asia,"['IRQ', 'ISR', 'JOR', 'LBN', 'TUR']",20,,,15.87,13,-11.4,30.01,-0.9
+Taiwan,158,TW,New Taiwan dollar,Taipei,Chinese,23.5,121,36193,23.4,Asia,Eastern Asia,,757,3.05,2,1.54,3.33,0.4,28.2,15.7
+Tajikistan,762,TJ,Tajikistani somoni,Dushanbe,Russian,39,71,143100,10.5,Asia,Central Asia,"['AFG', 'CHN', 'KGZ', 'UZB']",14,,7.75,3.5,11.6,1.4,29.5,6.2
+Tanzania,834,TZ,Tanzanian shilling,Dodoma,English,-6,35,945087,66.28,Africa,Eastern Africa,"['BDI', 'COD', 'KEN', 'MWI', 'MOZ', 'RWA', 'UGA', 'ZMB']",79,1.5,5.75,3.3,8.9,-3.4,48.2,-2.5
+Thailand,764,TH,Thai baht,Bangkok,Thai,15,100,513120,66.05,Asia,South-Eastern Asia,"['MMR', 'KHM', 'LAO', 'MYS']",526,0.6,1.5,-0.7,0.91,-2.2,63.7,1.4
+Togo,768,TG,West African CFA franc,Lome,French,8,1.16666666,56785,9.52,Africa,Western Africa,"['BEN', 'BFA', 'GHA']",10,,5.25,-1.1,3.1,-6.1,69,-3.3
+Trinidad and Tobago,780,TT,Trinidad and Tobago dollar,Port of Spain,English,10.6918,-61.2225,5130,1.37,Americas,Caribbean,,26,2.6,3.5,1.5,4.9,-6.7,56.1,6.6
+Tunisia,788,TN,Tunisian dinar,Tunis,Arabic,34,9,163610,11.89,Africa,Northern Africa,"['DZA', 'LBY']",53,1.8,7.5,5.3,15.7,-6.6,79.8,-2.7
+Turkey,792,TR,Turkish lira,Ankara,Turkish,39,35,783562,85.67,Asia,Western Asia,"['ARM', 'AZE', 'BGR', 'GEO', 'GRC', 'IRN', 'IRQ', 'SYR']",1323,1,43,33.52,8.6,-4.9,24.7,-0.8
+Turkmenistan,795,TM,Turkmenistan manat,Ashgabat,Russian,40,60,488100,7.49,Asia,Central Asia,"['AFG', 'IRN', 'KAZ', 'UZB']",64,,,5.5,4.19,0.8,4.6,5.9
+Uganda,800,UG,Ugandan shilling,Kampala,English,1,32,241550,50.02,Africa,Eastern Africa,"['COD', 'KEN', 'RWA', 'SSD', 'TZA']",54,3.7,9.75,3.8,2.9,-4.7,51.8,-9.21
+Ukraine,804,UA,Ukrainian hryvnia,Kyiv,Ukrainian,49,32,603500,41.21,Europe,Eastern Europe,"['BLR', 'HUN', 'MDA', 'POL', 'ROU', 'RUS', 'SVK']",191,0.2,15.5,14.1,10.5,-17.6,89.8,-8.1
+United Arab Emirates,784,AE,United Arab Emirates dirham,Abu Dhabi,Arabic,24,54,83600,10.88,Asia,Western Asia,"['OMN', 'SAU']",537,2,4.4,2.88,2.13,4.5,32.1,9.3
+United Kingdom,826,GB,British pound,London,English,54,-2,242900,69.23,Europe,Northern Europe,['IRL'],3644,0.3,4,3.8,4.7,-4.8,95.9,-2.7
+United States,840,US,United States dollar,"Washington, D.C.",English,38,-97,9372610,341.15,Americas,North America,"['CAN', 'MEX']",29185,3,4.5,2.7,4.2,-6.4,124.3,-3.9
+Uruguay,858,UY,Uruguayan peso,Montevideo,Spanish,-33,-56,181034,3.57,Americas,South America,"['ARG', 'BRA']",81,0.6,8.75,4.53,7.3,-3.2,70.3,-3.3
+Uzbekistan,860,UZ,Uzbekistani sum,Tashkent,Russian,41,64,447400,36.8,Asia,Central Asia,"['AFG', 'KAZ', 'KGZ', 'TJK', 'TKM']",115,,14,8.9,4.5,-3,35,-5
+Venezuela,862,VE,Venezuelan bolivar soberano,Caracas,Spanish,8,-66,916445,34.09,Americas,South America,"['BRA', 'COL', 'GUY']",112,-23.7,59.23,172,5.5,-3.3,164.3,4.1
+Vietnam,704,VN,Vietnamese dong,Hanoi,Vietnamese,16.16666666,107.8333333,331212,101.3,Asia,South-Eastern Asia,"['KHM', 'CHN', 'LAO']",476,6.88,4.5,3.19,2.24,-4,32.9,6.1
+Yemen,887,YE,Yemeni rial,Sana'a,Arabic,15,48,527968,40.58,Asia,Western Asia,"['OMN', 'SAU']",19,,27,0.77,17.1,-5.2,70.9,-5.9
+Zambia,894,ZM,Zambian kwacha,Lusaka,English,-15,30,752612,19.7,Africa,Eastern Africa,"['AGO', 'BWA', 'COD', 'MWI', 'MOZ', 'NAM', 'TZA', 'ZWE']",26,,14.5,13,12,-3.5,69.6,-1
+Zimbabwe,716,ZW,Zimbabwean dollar,Harare,Chibarwe,-20,30,390757,15.18,Africa,Southern Africa,"['BWA', 'MOZ', 'ZAF', 'ZMB']",44,,35,95.8,8.6,-1.2,87,1.3
