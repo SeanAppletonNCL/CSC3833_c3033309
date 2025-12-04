@@ -31,6 +31,7 @@ for col in num_cols:
     if col in df.columns:
         df[col] = pd.to_numeric(df[col], errors="coerce")
 
+
 # -------------------------------------------------------------------
 # Split Americas into North / South for the dashboard
 # -------------------------------------------------------------------
@@ -213,15 +214,17 @@ map_chart = (
     )
     # filter by selected indicator
     .transform_filter("datum.IndicatorPretty == metric_param")
-    # filter by selected region so the map zooms to that region
+    # filter by selected region so the map "zooms" to that region
     .transform_filter(region_filter_expr)
     .mark_geoshape(stroke="#e0e0e0", strokeWidth=0.5)
     .encode(
+        # shape still encodes region, same as before
         shape=alt.Shape(
             "Region:N",
             title="Region (shape)",
             scale=alt.Scale(domain=region_domain),
         ),
+        # ✅ colour is back to the quantitative metric
         color=alt.Color(
             "Metric value:Q",
             scale=alt.Scale(scheme="viridis", nice=True),
@@ -244,13 +247,11 @@ map_chart = (
         ],
     )
     .properties(
-        width=700,
-        height=450,
+        width=600,
+        height=400,
         title=alt.TitleParams(
-            text={
-                "expr": "'World map – ' + metric_param"
-            },
-            subtitle="The economic indicator can be changed using the control in the bottom right."
+            text={"expr": "'World map – ' + metric_param"},
+            subtitle="The economic indicator can be changed using the control in the bottom right.",
         ),
     )
     .project(type="equalEarth")
@@ -304,21 +305,21 @@ inflation_interest_chart = (
             "Region:N",
             title="Region (colour)",
             scale=region_color_scale,
-            legend=alt.Legend(orient="right", columns=1),
+            legend=alt.Legend(orient="right"),
         ),
         shape=alt.Shape(
             "Region:N",
             title="Region (shape)",
-            legend=alt.Legend(orient="right", columns=1),
+            legend=alt.Legend(orient="right"),
         ),
     )
     .properties(
-        width=700,
-        height=450,
+        width=600,
+        height=400,
         title={
             "text": "Inflation vs Interest Rate (by region, with trend lines)",
             "subtitle": "Each dashed line summarises the relationship in one region. "
-            "Scroll to zoom, drag to pan, double-click to reset zoom.",
+                        "Scroll to zoom, drag to pan, double-click to reset zoom.",
         },
     )
     .interactive()
@@ -362,8 +363,8 @@ top_countries = (
         ],
     )
     .properties(
-        width=600,
-        height=280,
+        width=580,
+        height=290,
         title=alt.TitleParams(
             text={
                 "expr": "top_mode == 'Highest' ? "
@@ -374,7 +375,6 @@ top_countries = (
         ),
     )
 )
-
 
 # -------------------------------------------------------------------
 # 6. Heatmap – normalised average indicator values by region
@@ -390,7 +390,7 @@ heatmap_chart = (
     )
     .transform_calculate(
         norm="datum.max_val == datum.min_val ? 0.5 : "
-        "(datum.metric - datum.min_val) / (datum.max_val - datum.min_val)"
+             "(datum.metric - datum.min_val) / (datum.max_val - datum.min_val)"
     )
     .transform_aggregate(
         mean_norm="mean(norm)",
@@ -427,8 +427,8 @@ heatmap_chart = (
         ],
     )
     .properties(
-        width=700,
-        height=330,
+        width=600,
+        height=290,
         title="How regions compare across indicators (0 = lowest, 1 = highest)",
     )
 )
@@ -437,8 +437,9 @@ heatmap_chart = (
 # 7. Layout, styling & export
 # -------------------------------------------------------------------
 
+# swap: heatmap on the left, bar chart on the right
 row_top = alt.hconcat(map_chart, inflation_interest_chart)
-row_bottom = alt.hconcat(top_countries, heatmap_chart)
+row_bottom = alt.hconcat(heatmap_chart, top_countries)
 
 dashboard = (
     alt.vconcat(row_top, row_bottom)
@@ -451,11 +452,13 @@ dashboard = (
         gridColor="#f0f0f0",
         domainColor="#b3b3b3",
     )
+    # STACK LEGENDS VERTICALLY
     .configure_legend(
-        labelFont="Arial",
-        titleFont="Arial",
-        labelFontSize=11,
+        orient="right",
         titleFontSize=12,
+        labelFontSize=11,
+        columnPadding=0,
+        rowPadding=4,
     )
     .configure_title(
         font="Arial",
@@ -506,6 +509,7 @@ html_template = f"""<!DOCTYPE html>
       padding: 24px 28px 32px;
       box-shadow: 0 12px 30px rgba(0,0,0,0.08);
       border-radius: 10px;
+      position: relative; /* needed for absolutely positioned controls */
     }}
     h1 {{
       margin: 0 0 4px 0;
@@ -522,79 +526,61 @@ html_template = f"""<!DOCTYPE html>
       width: 100%;
     }}
 
-    /* -------- Make Vega-Lite controls look nicer -------- */
+    /* Hide the default bindings container – we'll relocate its content with JS */
     #vis .vega-bindings {{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px 24px;
-      margin-top: 16px;
-      padding-top: 8px;
-      border-top: 1px solid #eee;
-      font-size: 13px;
-      position: relative;
+      display: none;
     }}
-    #vis .vega-bind {{
+
+    /* Containers where we will move the controls */
+    #global-controls {{
+      position: absolute;
+      top: 18px;        /* tweak to sit nicely with title */
+      right: 32px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 13px;
+      z-index: 10;
+    }}
+    #global-controls::before {{
+      content: "GLOBAL CONTROLS";
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #999;
+      margin-right: 10px;
+    }}
+
+    #bar-controls {{
+      position: absolute;
+      right: 32px;
+      bottom: 32px;     /* roughly under the bar chart (bottom-right quadrant) */
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      font-size: 13px;
+      z-index: 10;
+    }}
+    #bar-controls::before {{
+      content: "BAR CHART CONTROLS";
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #999;
+      margin-right: 10px;
+    }}
+
+    /* Make the moved controls look tidy */
+    #global-controls .vega-bind,
+    #bar-controls .vega-bind {{
       display: flex;
       align-items: center;
       gap: 6px;
     }}
-    #vis .vega-bind-name {{
+    #global-controls .vega-bind-name,
+    #bar-controls .vega-bind-name {{
       font-weight: 500;
       color: #444;
-    }}
-    #vis select,
-    #vis input[type="range"],
-    #vis input[type="radio"] {{
-      font-size: 13px;
-    }}
-    #vis input[type="range"] {{
-      width: 140px;
-    }}
-
-    /* Param order:
-       1 = Region (global)
-       2 = Economic indicator (global)
-       3 = Number of countries (bar chart)
-       4 = Ranking (bar chart)
-    */
-
-    /* Bar chart controls (3 & 4) on the left */
-    #vis .vega-bind:nth-child(3),
-    #vis .vega-bind:nth-child(4) {{
-      order: 1;
-    }}
-
-    /* Move indicator control first on the right */
-    #vis .vega-bind:nth-child(2) {{
-      order: 2;
-      margin-left: auto;
-    }}
-    
-    /* Move Region control AFTER indicator */
-    #vis .vega-bind:nth-child(1) {{
-      order: 3;
-    }}
-
-
-    /* Section labels */
-    #vis .vega-bindings::before {{
-      content: "BAR CHART CONTROLS";
-      flex-basis: 100%;
-      font-size: 10px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #999;
-      margin-bottom: -4px;
-    }}
-    #vis .vega-bindings::after {{
-      content: "GLOBAL CONTROLS";
-      position: absolute;
-      right: 0;
-      bottom: 32px;
-      font-size: 10px;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: #999;
     }}
 
     /* Nudge the map slightly left */
@@ -602,12 +588,6 @@ html_template = f"""<!DOCTYPE html>
       transform: translateX(-25px);
     }}
 
-    /* Move the Region (shape) legend underneath the Region (colour) legend.
-       Tweak these numbers if you want it slightly higher/lower or more left/right. */
-    #vis svg g[aria-label^="Region (shape)"] {{
-      transform: translate(850px, 80px);
-      transform-origin: top left;
-    }}
   </style>
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
@@ -618,9 +598,14 @@ html_template = f"""<!DOCTYPE html>
     <h1>Global Economic Indicators Dashboard</h1>
     <p class="subtitle">
       Explore how different economic indicators vary across countries and regions.
-      Use the controls below to filter the view.
     </p>
+
+    <!-- Vega-Lite visualization -->
     <div id="vis"></div>
+
+    <!-- New containers for controls -->
+    <div id="global-controls"></div>
+    <div id="bar-controls"></div>
   </div>
 
   <script>
@@ -633,6 +618,28 @@ html_template = f"""<!DOCTYPE html>
         compiled: false,
         editor: false
       }}
+    }}).then(res => {{
+      // Find the original bindings container created by Vega-Embed
+      const container = res.view.container();
+      const bindings = container.querySelector(".vega-bindings");
+      if (!bindings) return;
+
+      const binds = Array.from(bindings.children); // .vega-bind elements
+
+      // Param order:
+      // 0 = Region (global)
+      // 1 = Economic indicator (global)
+      // 2 = Number of countries (bar chart)
+      // 3 = Ranking (bar chart)
+
+      const globalBox = document.getElementById("global-controls");
+      const barBox = document.getElementById("bar-controls");
+
+      if (binds[1]) globalBox.appendChild(binds[1]); // indicator
+      if (binds[0]) globalBox.appendChild(binds[0]); // region
+
+      if (binds[2]) barBox.appendChild(binds[2]);    // number of countries
+      if (binds[3]) barBox.appendChild(binds[3]);    // ranking
     }}).catch(console.error);
   </script>
 </body>
